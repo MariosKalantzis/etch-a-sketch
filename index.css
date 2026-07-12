@@ -1,7 +1,14 @@
+body {
+    background-color: #ececee;
+}
+
 .container {
     width: 960px;
+    height: 960px;
     display: flex;
     flex-wrap: wrap;
+    border: 10px solid red;
+    background-color: white;
 }
 
 .square {
@@ -23,11 +30,18 @@
     border-radius: 5px;
     background-color: white;
     font-weight: bold;
+    border-radius: 10px;
 }
 
 #sizeSlider {
     font-size: 24px;
     margin-top: 20px;
     border: none;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
 
 }
