@@ -1,21 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #ececee;
+    background-color: #40686A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.canvas-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 48px;
+    color: #915C4C;
+    text-align: center;
+    -webkit-text-stroke: 2px #2F1812;
 }
 
 .container {
-    width: 960px;
-    height: 960px;
-    display: flex;
-    flex-wrap: wrap;
-    border: 10px solid red;
+    display: grid;
+    border: 1px solid white;
     background-color: white;
-}
-
-.square {
-    box-sizing: border-box;
-    border: 1px solid #000;
-    width: 60px;
-    height: 60px;
+    --d: 30px;
+    height: 500px;
+    border-radius: 0 var(--d);
+    corner-shape: bevel;
+    border-right: var(--d) solid #0004;
+    border-bottom: var(--d) solid #0008;
 }
 
 .main {
@@ -23,14 +40,19 @@ body {
     justify-content: center;
     align-items: center;
     gap: 50px;
+    width: fit-content;
 }
 
-.clear-button {
+#clear-button,
+#rainbowButton,
+#eraser,
+#color-button {
     font-size: 15px;
     border-radius: 5px;
-    background-color: white;
+    background-color: #915C4C;
     font-weight: bold;
     border-radius: 10px;
+    color: #2F1812
 }
 
 #sizeSlider {
@@ -42,6 +64,16 @@ body {
 .button-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     border-radius: 10px;
+    gap: 10px;
 
+}
+
+#sizeValue {
+    font-size: 36px;
+    font-weight: bold;
+    color: #b78338;
+    -webkit-text-stroke: 1px #2F1812;
+    gap: 20px;
 }

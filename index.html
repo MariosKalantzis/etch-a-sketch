@@ -10,10 +10,17 @@
 </head>
 
 <body>
+
     <div class="main">
-        <div class="container"></div>
+        <div class="canvas-section">
+            <h1 class="title">Etch - e - Sketch </h1>
+            <div class="container"></div>
+        </div>
         <div class="button-container">
-            <button class="clear-button">Clear!</button>
+            <button id="clear-button">Clear!</button>
+            <button id="color-button">Color Button</button>
+            <button id="rainbowButton">Rainbow color</button>
+            <button id="eraser">Eraser!</button>
             <div id="sizeValue">50 x 50</div>
             <input type="range" min="6" max="100" value="50" class="slider" id="sizeSlider" />
             <input type="color" class="pallet" id="colorPallet" value="#000000" />
