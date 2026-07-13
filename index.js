@@ -29,7 +29,7 @@ const setupGrid = (size) => {
         square.style.height = squareSize + `px`;
         container.appendChild(square);
         square.addEventListener('mouseenter', () => {
-            square.style.backgroundColor = 'black';
+            square.style.backgroundColor = currentColor;
         });
     }
 
@@ -52,8 +52,8 @@ const changeSize = (value) => {
     setupGrid(currentSize);
 }
 
-const updateColor = (value) => {
-    currentColor = value;
+const updateColor = (newColor) => {
+    currentColor = newColor;
 }
 
 sizeSlider.onchange = (e) => changeSize(e.target.value);
