@@ -33,3 +33,11 @@ This project helped me become more comfortable working with JavaScript and the D
 - I became more confident with DOM manipulation and realized that, with enough practice, it becomes much more intuitive.
 - As the projects become more complex, I have also learned that reading documentation is an essential part of the development process. I no longer expect to remember everything and instead focus on understanding concepts and knowing where to find reliable information.
 
+## Live Demo
+
+https://marioskalantzis.github.io/etch-a-sketch/
+
+
+## Acknowledgements
+
+This project was build as part of The Odin Project curriculum.
