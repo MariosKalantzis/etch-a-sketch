@@ -6,7 +6,7 @@ It allows users to draw on a customizable grid using different color modes, incl
 
 ## Preview
 
-![Etch-a-sketch](./images/etch-a-sketch.png)
+![etch-a-sketch](./images/etch-a-sketch.png)
 
 ## Features 
 - Adjustable grid size
